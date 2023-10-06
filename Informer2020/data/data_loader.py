@@ -286,7 +286,7 @@ class Dataset_Custom(Dataset):
 
 class Dataset_Pred(Dataset):
     def __init__(self, root_path, flag='pred', size=None, 
-                 features='S', data_path='previsao_data.csv', 
+                 features='S', data_path='casos_data.csv', 
                  target='new_cases', scale=True, inverse=False, timeenc=0, freq='d', cols=None):
         # size [seq_len, label_len, pred_len]
         # info
