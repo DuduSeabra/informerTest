@@ -70,7 +70,6 @@ class Exp_Informer(Exp_Basic):
             'Solar':Dataset_Custom,
             'custom':Dataset_Custom,
             'casos_data':Dataset_Custom,
-            'previsao_data':Dataset_Pred,
         }
         Data = data_dict[self.args.data]
         timeenc = 0 if args.embed!='timeF' else 1
